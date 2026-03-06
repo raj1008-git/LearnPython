@@ -1,17 +1,18 @@
-name = "Arjun"
-city= "Kathmandu"
+# String Operations.
+first_name="Arjun"
+last_name="Sharma"
 
-age= 25
-year = 2026
+#Concatination. Joining Strings
+full_name = first_name + " " + last_name
+print(full_name)
 
+age=25
+message = f"My name is {full_name} and I am {age} years old."
+print(message)
 
-height=5.9
-price= 19.99
+print(len(full_name))
+print(first_name[0])
+print(first_name[1])
 
-is_student=True
-has_job=False
-
-print(type(name))
-print(type(age))
-print(type(height))
-print(type(is_student))
+print(first_name.upper())
+print(first_name.lower())
