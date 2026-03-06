@@ -1,18 +1,8 @@
-# String Operations.
-first_name="Arjun"
-last_name="Sharma"
+# Assign multiple variables in one line
+x,y,z=10,20,30
+a =b =c =0
 
-#Concatination. Joining Strings
-full_name = first_name + " " + last_name
-print(full_name)
-
-age=25
-message = f"My name is {full_name} and I am {age} years old."
-print(message)
-
-print(len(full_name))
-print(first_name[0])
-print(first_name[1])
-
-print(first_name.upper())
-print(first_name.lower())
+x=5
+y=10
+x,y=y,x
+print(x,y)
